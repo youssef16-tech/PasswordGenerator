@@ -1,0 +1,75 @@
+body
+ {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    background-color: #1F2937;
+    color: white;
+}
+.didi
+{
+    color: #34D399;
+}
+.text {
+    margin: 60px 50px 20px 50px;
+}
+#gen
+{
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: #34D399;
+    padding: 7px 15px;
+    border-radius:5px ;
+    border: none;
+    color: white;
+}
+hr {
+
+  border: none;
+  height: 1px;
+  background-color: #2f3e53; 
+  margin: 20px auto;
+  width: 89%;
+} 
+.passes
+{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}  
+#pass1
+{
+    padding: 8px 100px;
+    background-color: #273549;
+    border-radius:5px ;
+    border: none;
+    color: #55F991;
+}
+#pass2
+{
+    padding: 8px 100px;
+    background-color: #273549;
+    border-radius:5px ;
+    border: none;
+    color: #55F991;
+}
+
+#length {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 100px;
+    padding: 8px 12px;
+    width: 80px;
+
+    background-color: #273549;
+    color: #55F991;
+
+    border: 1px solid #34D399;
+    border-radius: 5px;
+
+    font-family: "Orbitron", sans-serif;
+}

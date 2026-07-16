@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Playwrite+NZ+Basic:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="text">
+            
+            <h1>Generate a <span class = "didi" > random password.</span>  </h1>
+            <p>Never use an insecure password again.</p> 
+              
+        </div>
+            
+        <button id="gen" onclick="gen()">Generate passwords</button>
+        <input type="number" id="length" value="15">
+        
+
+
+<label>
+<input type="checkbox" id="numbers" checked>
+Numbers
+</label>
+
+<label>
+<input type="checkbox" id="symbols" checked>
+Symbols
+</label>
+        
+        
+        <hr/>
+        
+        
+        <div class="passes">
+            <button id="pass1" onclick="copy(pass1El.textContent)"></button>
+            <button id="pass2" onclick="copy(pass2El.textContent)"></button>
+        </div>
+        
+        
+            
+            
+        <script src="index.js"></script>
+    </body>
+</html>
